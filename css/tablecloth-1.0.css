@@ -1,0 +1,188 @@
+/*!
+ * TableCloth v1.0.0
+ * Copyright (c) 2018 Nick Adams
+ * Licenced under the MIT license.
+ *
+ * A tiny front-end framework for attractive tables out of the box
+ */
+/* line 13, ../sass/tablecloth-1.0.scss */
+.twoCol tr td:nth-child(1), .inception tr td:nth-child(1) {
+  width: 47%;
+}
+/* line 16, ../sass/tablecloth-1.0.scss */
+.twoCol tr td:nth-child(2), .inception tr td:nth-child(2) {
+  width: 26.5%;
+}
+
+/* line 24, ../sass/tablecloth-1.0.scss */
+.threeCol tr td:nth-child(1), .inception tr td:nth-child(1) {
+  width: 47%;
+}
+/* line 27, ../sass/tablecloth-1.0.scss */
+.threeCol tr td:nth-child(2), .inception tr td:nth-child(2) {
+  width: 26.5%;
+}
+
+/* line 35, ../sass/tablecloth-1.0.scss */
+.fourCol tr td:nth-child(1), .inception tr td:nth-child(1) {
+  width: 47%;
+}
+/* line 38, ../sass/tablecloth-1.0.scss */
+.fourCol tr td:nth-child(2), .inception tr td:nth-child(2) {
+  width: 26.5%;
+}
+
+/* line 46, ../sass/tablecloth-1.0.scss */
+.ratetable td {
+  font-size: 1.2em;
+}
+
+/* line 52, ../sass/tablecloth-1.0.scss */
+.ratetable, .inception {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+}
+/* line 56, ../sass/tablecloth-1.0.scss */
+.ratetable *, .inception * {
+  box-sizing: border-box;
+}
+/* line 59, ../sass/tablecloth-1.0.scss */
+.ratetable caption, .inception caption {
+  color: #ffffff;
+  background: #333;
+  background: #333;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+  caption-side: top;
+  width: calc(100% - 1px);
+  padding: 10px;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+/* line 78, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.l-c td, .inception.twoCol.l-c td {
+  text-align: left !important;
+}
+
+/* line 82, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.lr-c td:nth-child(1), .inception.twoCol.lr-c td:nth-child(1) {
+  text-align: left !important;
+}
+
+/* line 85, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.lr-c td:nth-child(2), .inception.twoCol.lr-c td:nth-child(2) {
+  text-align: right !important;
+}
+
+/* line 89, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.lc-c td:nth-child(1), .inception.twoCol.lc-c td:nth-child(1) {
+  text-align: left !important;
+}
+
+/* line 92, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.lc-c td:nth-child(2), .inception.twoCol.lc-c td:nth-child(2) {
+  text-align: center !important;
+}
+
+/* line 100, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.c-c td, .inception.twoCol.c-c td {
+  text-align: center !important;
+}
+
+/* line 104, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.cl-c td:nth-child(1), .inception.twoCol.cl-c td:nth-child(1) {
+  text-align: center !important;
+}
+
+/* line 107, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.cl-c td:nth-child(2), .inception.twoCol.cl-c td:nth-child(2) {
+  text-align: left !important;
+}
+
+/* line 111, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.cr-c td:nth-child(1), .inception.twoCol.cr-c td:nth-child(1) {
+  text-align: center !important;
+}
+
+/* line 114, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.cr-c td:nth-child(2), .inception.twoCol.cr-c td:nth-child(2) {
+  text-align: right !important;
+}
+
+/* line 124, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.r-c td, .inception.twoCol.r-c td {
+  text-align: right !important;
+}
+
+/* line 128, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.rl-c td:nth-child(1), .inception.twoCol.rl-c td:nth-child(1) {
+  text-align: right  !important;
+}
+
+/* line 131, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.rl-c td:nth-child(2), .inception.twoCol.rl-c td:nth-child(2) {
+  text-align: left !important;
+}
+
+/* line 135, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.rc-c td:nth-child(1), .inception.twoCol.rc-c td:nth-child(1) {
+  text-align: right !important;
+}
+
+/* line 138, ../sass/tablecloth-1.0.scss */
+.ratetable.twoCol.rc-c td:nth-child(2), .inception.twoCol.rc-c td:nth-child(2) {
+  text-align: center !important;
+}
+
+/* line 147, ../sass/tablecloth-1.0.scss */
+.ratetable td:first-child, .ratetable th:first-child {
+  text-align: left;
+}
+
+/* line 150, ../sass/tablecloth-1.0.scss */
+.inception td:first-child {
+  padding-left: 30px;
+  text-align: left;
+}
+
+/* line 154, ../sass/tablecloth-1.0.scss */
+.ratetable td, .ratetable th {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 0;
+  border-bottom: 0;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+/* line 161, ../sass/tablecloth-1.0.scss */
+.inception td, .inception th {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 0;
+  border-bottom: 0;
+  padding: 8px 10px;
+}
+
+/* line 168, ../sass/tablecloth-1.0.scss */
+.ratetable th {
+  background: #333;
+  background: #333;
+  color: #fff;
+}
+
+/* line 173, ../sass/tablecloth-1.0.scss */
+.ratetable tr:nth-child(odd), .inception tr:nth-child(odd) {
+  background: #eee;
+}
+
+/* line 176, ../sass/tablecloth-1.0.scss */
+.ratetable tr.hr, .inception tr.hr {
+  border-bottom: 4px solid #333;
+}
+
+/* line 179, ../sass/tablecloth-1.0.scss */
+.ratetable .foot {
+  background: #333;
+  color: #fff;
+}
