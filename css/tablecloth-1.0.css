@@ -164,24 +164,24 @@
   padding: 8px 10px;
 }
 
-/* line 168, ../sass/tablecloth-1.0.scss */
+/* line 167, ../sass/tablecloth-1.0.scss */
 .ratetable th {
   background: #333;
   background: #333;
   color: #fff;
 }
 
-/* line 173, ../sass/tablecloth-1.0.scss */
+/* line 172, ../sass/tablecloth-1.0.scss */
 .ratetable tr:nth-child(odd), .inception tr:nth-child(odd) {
   background: #eee;
 }
 
-/* line 176, ../sass/tablecloth-1.0.scss */
+/* line 175, ../sass/tablecloth-1.0.scss */
 .ratetable tr.hr, .inception tr.hr {
   border-bottom: 4px solid #333;
 }
 
-/* line 179, ../sass/tablecloth-1.0.scss */
+/* line 178, ../sass/tablecloth-1.0.scss */
 .ratetable .foot {
   background: #333;
   color: #fff;
